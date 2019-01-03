@@ -1,5 +1,5 @@
 {
-  "name": "trux_test_webhook",
+  "name": "trux_webhook",
   "version": "1.0.0",
   "description": "A Node Based Webhook that fetches the details of a movie",
   "main": "index.js",
@@ -11,9 +11,9 @@
     "trux_ai",
     "rate",
     "nodejs",
-    "jaypandya"
+    "saifkhan"
   ],
-  "author": "Jay Pandya(mrjaypandya)",
+  "author": "Saif khan(mohammadsaifkhan)",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
