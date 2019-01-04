@@ -13,7 +13,7 @@ server.use(bodyParser.urlencoded({
 
 server.use(bodyParser.json());
 
-server.post('/get-details', (req, res) => {
+server.get('/', (req, res) => {
 
     const dst = req.body.queryResult.parameters.destination;
     const src = req.body.queryResult.parameters.source;
@@ -58,7 +58,7 @@ server.post('/get-details', (req, res) => {
     });
 });
 
-server.listen((process.env.PORT || 8080), () => {
+server.listen(8080), () => {
     console.log("Server is up and running...");
 });
 
