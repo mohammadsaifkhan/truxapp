@@ -34,7 +34,7 @@ server.post('/get-details', (req, res) => {
          searchdate: date 
         }
     };
-    http.get(options, (responseFromAPI) => {
+    http.post(options, (responseFromAPI) => {
         let completeResponse = '';
         responseFromAPI.on('data', (chunk) => {
             completeResponse += chunk;
