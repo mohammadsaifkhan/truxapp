@@ -58,6 +58,6 @@ server.post('/get-details', (req, res) => {
     });
 });
 
-server.listen((process.env.PORT || 80), () => {
+server.listen((process.env.PORT || 3000), () => {
     console.log("Server is up and running...");
 });
