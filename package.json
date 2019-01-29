@@ -1,7 +1,7 @@
 {
-  "name": "trux_webhook",
+  "name": "truxapp",
   "version": "1.0.0",
-  "description": "A Node Based Webhook that fetches the details of a movie",
+  "description": "A Node Based Webhook that fetches the details of a trucks rates",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
