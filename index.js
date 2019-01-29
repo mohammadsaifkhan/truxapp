@@ -2,12 +2,12 @@
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const http = require('https');
+const http = require('http');
 // const API_KEY = require('./apiKey');
 // const request = require('request');
 
 const app = express();
-const http = require('https').server(app);
+const http = require('http').server(app);
 server.use(bodyParser.urlencoded({
     extended: true
 }));
